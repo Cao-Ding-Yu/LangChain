@@ -75,7 +75,7 @@ def download_files(batch_id):
     for i in done_files: print("done:", i)
 
 
-file_paths = ["resources/04-05-load.pdf"]
+file_paths = ["resources/04-05-11-load.pdf"]
 batch_id = upload_files(file_paths)
 if batch_id: download_files(batch_id)
 
