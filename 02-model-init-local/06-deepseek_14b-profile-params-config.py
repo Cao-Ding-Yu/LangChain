@@ -51,7 +51,7 @@ print(ChatOllama.model_fields.keys())
 # 3. 新建实例调用config参数(本地+云端)
 config = {
     "configurable":{
-        "model": "mannix/deepseek-coder-v2-lite-instruct",
+        "model": "qwen3.8:27b",
     }
 }
 

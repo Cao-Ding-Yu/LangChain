@@ -5,7 +5,7 @@ from langchain.messages import HumanMessage
 from langchain_ollama import ChatOllama
 from langchain.agents import create_agent
 
-# 限制工具调用次数
+# 工具选型
 
 DEFAULT_SYSTEM_PROMPT = (
     "Your goal is to select the most relevant tools for answering the user's query."

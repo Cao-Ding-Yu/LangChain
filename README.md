@@ -33,26 +33,26 @@
 #### 学习案例：
 - `01-deepseek_14b-ollama-local.py` - 使用 Ollama 初始化 DeepSeek 模型
 - `02-deepseek_14b-ollama-invoke.py` - 通过 Ollama 调用模型
-- `03-deepseek_14b-ollama-rich_print.py` - 丰富打印输出的模型调用
+- `03-deepseek_14b-ollama-rich_print.py` - 结构化打印模型输出
 - `04-deepseek_14b-stream-batch.py` - 流式和批量处理模型调用
 - `05-deepseek_14b-async.py` - 异步模型调用
-- `06-deepseek_14b-profile-params-config.py` - 模型参数配置和性能分析
+- `06-deepseek_14b-profile-params-config.py` - 模型参数动态配置
 - `07-deepseek_14b-exception.py` - 异常处理
 
 ### 第三章：LangSmith
 学习如何使用 LangSmith 进行模型的监控、调试和评估。
 
 #### 学习案例：
-- `01-deepseek_14b-LangSmith.py` - 使用 LangSmith 监控 DeepSeek 模型
+- `01-deepseek_14b-LangSmith.py` - 使用 LangSmith 监控模型
 
 ### 第四章：提示模板（Prompt Template）
 掌握提示模板的使用方法，提高模型输入的一致性和可维护性。
 
 #### 学习案例：
-- `01-deepseek_14b-message.py` - 消息列表的创建方式
+- `01-deepseek_14b-message.py` - 消息列表的创建
 - `02-deepseek_14b-messages.py` - 消息列表的裁剪
 - `03-deepseek_14b-dialogue.py` - 基于消息列表的简易对话
-- `04-qwen3.8_27b-content-blocks.py` - 多模态内容块提示模板
+- `04-qwen3.8_27b-content-blocks.py` - 多模态内容块
 - `05-gpt-oss_20b-prompt.py` - 提示词模板的创建
 - `06-gpt-oss_20b-template.py` - 提示词模板的使用
 - `07-gpt-oss_20b-placeholder.py` - 占位符提示模板
@@ -64,7 +64,7 @@
 - `01-gpt-oss_20b-tool_init-with@tool.py` - 使用 @tool 装饰器定义工具
 - `02-gpt-oss_20b-tool_init-without@tool.py` - 不使用装饰器的工具初始化
 - `03-gpt-oss_20b-tool-messages.py` - 带有工具的消息交互
-- `04-qwen3.8_27b-tools-messages.py` - 工具并行消息交互
+- `04-qwen3.8_27b-tools-messages.py` - 并行工具调用的消息交互
 
 ### 第六章：结构化输出
 学习如何让模型输出结构化的数据格式，如 JSON、Pydantic 模型等。
@@ -80,12 +80,12 @@
 学习如何构建智能代理，让模型能够自主执行任务。
 
 #### 学习案例：
-- `01-gpt-oss_20b-init-Agent.py` - 初始化Agent
-- `02-gpt-oss_20b-tool-Agent.py` - 使用工具的Agent
-- `03-qwen3.8_27b-struct_output-Agent.py` - 结构化输出的Agent
-- `04-qwen3.8_27b-struct_output-handle_errors.py` - Agent的错误处理
-- `05-qwen3.8_27b-stream-Agent.py` - 流式响应的Agent
-- `06-qwen3.8_27b-Assistant.py` - 助手Agent
+- `01-gpt-oss_20b-init-Agent.py` - 初始化 Agent
+- `02-gpt-oss_20b-tool-Agent.py` - Agent 绑定 Tool
+- `03-qwen3.8_27b-struct_output-Agent.py` - 结构化输出的 Agent
+- `04-qwen3.8_27b-struct_output-handle_errors.py` - Agent 的错误处理
+- `05-qwen3.8_27b-stream-Agent.py` - 流式响应的 Agent
+- `06-qwen3.8_27b-Assistant.py` - 助手 Agent
 
 ### 第八章：中间件（Middleware）
 学习如何使用中间件来增强模型的功能，如日志记录、错误处理、限流等。
@@ -102,13 +102,13 @@
 - `09-gpt-oss_20b-ToolRetryMiddleware.py` - 工具重试中间件
 - `10-gpt-oss_20b-ModelRetryMiddleware.py` - 模型重试中间件
 - `11-gpt-oss_20b-LLMToolEmulator.py` - LLM 工具模拟器
-- `12-gpt-oss_20b-ContextEditingMiddleware.py` - 上下文编辑中间件
+- `12-gpt-oss_20b-ContextEditingMiddleware.py` - 上下文清理中间件
 - `13-gpt-oss_20b-FilesystemFileSearchMiddleware.py` - 文件系统搜索中间件
 - `14-gpt-oss_20b-Node-style-hooks-decorator.py` - Node 风格钩子装饰器
 - `15-gpt-oss_20b-Node-style-hooks-class.py` - Node 风格钩子类
 - `16-gpt-oss_20b-can_jump_to.py` - 跳转功能
-- `17-gpt-oss_20b-wrap_model_call.py` - 模型调用包装器
-- `18-gpt-oss_20b-wrap_tool_call.py` - 工具调用包装器
+- `17-gpt-oss_20b-wrap_model_call.py` - 模型调用钩子函数
+- `18-gpt-oss_20b-wrap_tool_call.py` - 工具调用钩子函数
 - `19-gpt-oss_20b-hooks.py` - 钩子机制
 
 ### 第九章：记忆（Memory）
@@ -116,14 +116,14 @@
 
 #### 学习案例：
 - `01-gpt-oss_20b-InMemorySaver.py` - 内存存储器
-- `02-gpt-oss_20b-SqliteSaver.py` - SQLite 存储器
+- `02-gpt-oss_20b-SqliteSaver.py` - 数据库存储器
 - `03-gpt-oss_20b-Delete.py` - 删除记忆
 - `04-gpt-oss_20b-Cut.py` - 截断记忆
 - `05-gpt-oss_20b-InMemory-Put-Get.py` - 内存存储的增删改查
 - `06-gpt-oss_20b-DataBase-Put-Get.py` - 数据库存储的增删改查
-- `07-gpt-oss_20b-Search.py` - 长期记忆搜索
-- `08-gpt-oss_20b-Tool.py` - 基于 Tool 的长期记忆存取
-- `09-gpt-oss_20b-Middleware.py` - 基于中间件的长期记忆存取
+- `07-gpt-oss_20b-Search.py` - 长期记忆的检索
+- `08-gpt-oss_20b-Tool.py` - 基于 Tool 的长期记忆操作
+- `09-gpt-oss_20b-Middleware.py` - 基于中间件的长期记忆操作
 
 ### 第十章：检索增强生成（RAG）
 学习如何构建 RAG 系统，将模型与外部知识库结合。
