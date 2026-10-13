@@ -30,3 +30,4 @@ while True:
         print(chunk.content,end="",flush=True)
         reply_content += chunk.content
     messages.append({"role":"assistant", "content": reply_content})
+

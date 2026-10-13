@@ -22,7 +22,6 @@ class FruitMemoryMiddleware(AgentMiddleware):
 
 
 DB_PATH = "09-checkpoints.db"
-
 with SqliteStore.from_conn_string(DB_PATH) as store:
     store.setup()
     agent = create_agent(
