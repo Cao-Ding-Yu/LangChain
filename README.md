@@ -32,12 +32,12 @@
 
 #### 学习案例：
 - `01-deepseek_14b-ollama-local.py` - 使用 Ollama 初始化 DeepSeek 模型
-- `02-deepseek_14b-ollama-invoke.py` - 通过 Ollama 调用模型
-- `03-deepseek_14b-ollama-rich_print.py` - 结构化打印模型输出
-- `04-deepseek_14b-stream-batch.py` - 流式和批量处理模型调用
-- `05-deepseek_14b-async.py` - 异步模型调用
-- `06-deepseek_14b-profile-params-config.py` - 模型参数动态配置
-- `07-deepseek_14b-exception.py` - 异常处理
+- `03-deepseek_14b-ollama-invoke.py` - 通过 Ollama 调用模型
+- `04-deepseek_14b-ollama-rich_print.py` - 结构化打印模型输出
+- `05-deepseek_14b-stream-batch.py` - 流式和批量处理模型调用
+- `06-deepseek_14b-async.py` - 异步模型调用
+- `07-deepseek_14b-profile-params-config.py` - 模型参数动态配置
+- `08-deepseek_14b-exception.py` - 异常处理
 
 ### 第三章：LangSmith
 学习如何使用 LangSmith 进行模型的监控、调试和评估。
