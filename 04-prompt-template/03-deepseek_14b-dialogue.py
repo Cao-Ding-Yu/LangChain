@@ -1,3 +1,4 @@
+# 简易模型对话
 
 from langchain_ollama import ChatOllama
 

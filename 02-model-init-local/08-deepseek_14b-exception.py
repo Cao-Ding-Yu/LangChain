@@ -1,3 +1,5 @@
+# 模型调用的异常捕获
+
 from langchain_ollama import ChatOllama
 
 model = ChatOllama(

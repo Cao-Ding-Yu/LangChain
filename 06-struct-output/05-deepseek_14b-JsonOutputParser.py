@@ -1,3 +1,4 @@
+# 旧式已弃用结构化输出
 
 from pydantic import BaseModel, Field
 from langchain_ollama import ChatOllama

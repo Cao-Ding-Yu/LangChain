@@ -1,3 +1,4 @@
+# 文件夹加载器
 
 from pprint import pprint
 from langchain_community.document_loaders import DirectoryLoader

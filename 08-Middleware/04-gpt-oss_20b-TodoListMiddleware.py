@@ -1,3 +1,4 @@
+# 中间件作用：任务拆解
 
 import subprocess
 from pathlib import Path
@@ -6,8 +7,6 @@ from langchain.tools import tool
 from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage
 from langchain.agents.middleware import TodoListMiddleware
-
-# 中间件作用：任务拆解
 
 WORKSPACE = Path("04-workspace")
 

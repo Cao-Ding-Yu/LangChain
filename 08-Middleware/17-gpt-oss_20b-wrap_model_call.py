@@ -1,3 +1,4 @@
+# 模型执行时钩子函数
 
 from typing import Callable
 from langchain.agents.middleware import ModelRequest, ModelResponse, AgentMiddleware

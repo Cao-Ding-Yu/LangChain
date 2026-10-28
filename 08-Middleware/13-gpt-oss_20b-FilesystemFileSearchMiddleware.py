@@ -1,9 +1,8 @@
+# 本地文件搜索与分析能力中间件
 
 from langchain.agents import create_agent
 from langchain.agents.middleware import FilesystemFileSearchMiddleware
 from langchain.messages import HumanMessage
-
-# 本地文件搜索与分析能力中间件
 
 agent = create_agent(
     model="ollama:gpt-oss:20b",

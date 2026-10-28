@@ -1,3 +1,5 @@
+# 异步调用
+
 import asyncio
 from langchain_ollama import ChatOllama
 

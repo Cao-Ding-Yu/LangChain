@@ -1,3 +1,4 @@
+# 简易RAG系统
 
 from pymilvus import MilvusClient
 from langchain.embeddings import init_embeddings

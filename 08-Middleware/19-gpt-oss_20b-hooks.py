@@ -1,4 +1,4 @@
-
+# 钩子函数的洋葱模型
 
 from langchain.agents.middleware import (
     before_model,
@@ -89,7 +89,7 @@ agent = create_agent(
     ]
 )
 
-response = agent.invoke({"messages": [HumanMessage("和我说你好")],})
+response = agent.invoke({"messages": [HumanMessage("只和我说“你好”")],})
 for msg in response["messages"]:msg.pretty_print()
 
 

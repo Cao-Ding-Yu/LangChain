@@ -1,3 +1,4 @@
+# 调用Ollama模型
 
 from langchain_ollama import ChatOllama
 from langchain.chat_models import init_chat_model

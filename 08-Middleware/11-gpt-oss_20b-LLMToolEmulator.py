@@ -1,10 +1,9 @@
+# 用LLM生成的模拟响应来替代真实工具的执行，用于测试
 
 from langchain_core.tools import tool
 from langchain.agents.middleware import LLMToolEmulator
 from langchain.messages import HumanMessage
 from langchain.agents import create_agent
-
-# 用LLM生成的模拟响应来替代真实工具的执行，用于测试
 
 @tool
 def add(a:int, b:int):

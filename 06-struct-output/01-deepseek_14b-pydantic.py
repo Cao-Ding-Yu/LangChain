@@ -1,3 +1,4 @@
+# 使用pydantic实现结构化输出
 
 from enum import StrEnum
 from typing import Literal

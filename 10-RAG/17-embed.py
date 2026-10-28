@@ -1,3 +1,4 @@
+# 嵌入模型的使用
 
 from langchain_community.document_loaders import CSVLoader
 from langchain.embeddings import init_embeddings

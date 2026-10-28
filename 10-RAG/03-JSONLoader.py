@@ -1,3 +1,4 @@
+# json加载器
 
 from rich import print as rprint
 from  langchain_community.document_loaders import JSONLoader

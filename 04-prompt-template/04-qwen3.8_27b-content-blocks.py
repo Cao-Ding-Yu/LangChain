@@ -1,3 +1,4 @@
+# 多模态（图片）调用
 
 import base64
 from langchain_ollama import ChatOllama

@@ -1,11 +1,10 @@
+# 中间件作用：限制模型调用次数
 
 from langchain_ollama import ChatOllama
 from langchain.agents import create_agent
 from langchain.agents.middleware import ModelCallLimitMiddleware
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain.messages import HumanMessage
-
-# 中间件作用：限制模型调用次数
 
 config = {"configurable": {"thread_id": "1"}}
 

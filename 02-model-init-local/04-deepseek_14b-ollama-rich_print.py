@@ -1,3 +1,4 @@
+# 使用rich print
 
 from rich import print as rprint
 from langchain_ollama import ChatOllama

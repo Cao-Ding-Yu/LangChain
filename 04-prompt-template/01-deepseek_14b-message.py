@@ -1,3 +1,5 @@
+# 消息的创建方法
+
 from rich import print as rprint
 from langchain_ollama import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage

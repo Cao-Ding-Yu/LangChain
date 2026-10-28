@@ -1,10 +1,9 @@
+# 中间件作用：生成上下文摘要，减少上下文
 
 from langchain_ollama import ChatOllama
 from langchain.agents import create_agent
 from langchain.agents.middleware import SummarizationMiddleware
 from langchain_core.messages import SystemMessage,HumanMessage,AIMessage
-
-# 中间件作用：生成上下文摘要，减少上下文体量
 
 model = ChatOllama(
     model="deepseek-r1:14b",

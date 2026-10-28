@@ -1,3 +1,4 @@
+# 结构化输出异常捕获方法
 
 from typing import Union
 from langchain.agents.structured_output import ToolStrategy, MultipleStructuredOutputsError, StructuredOutputValidationError

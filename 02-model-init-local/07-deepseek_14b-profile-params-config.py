@@ -1,3 +1,5 @@
+# 模型调用的参数调整
+
 from rich import print as rprint
 from langchain_ollama import ChatOllama
 from langchain_openai import ChatOpenAI

@@ -1,3 +1,4 @@
+# 工具执行时钩子函数
 
 from typing import Callable
 from langchain_core.tools import tool

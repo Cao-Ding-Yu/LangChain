@@ -1,3 +1,4 @@
+# 使用@dataclass实现结构化输出
 
 from pydantic import Field
 from dataclasses import dataclass

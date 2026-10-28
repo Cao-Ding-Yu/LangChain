@@ -1,9 +1,8 @@
+# 指数退避算法设置模型调用失败的重试策略
 
 from langchain.messages import HumanMessage
 from langchain.agents import create_agent
 from langchain.agents.middleware import ModelRetryMiddleware
-
-# 指数退避算法设置模型调用失败的重试策略
 
 agent_1 = create_agent(
     model="ollama:gpt-fake:20b",

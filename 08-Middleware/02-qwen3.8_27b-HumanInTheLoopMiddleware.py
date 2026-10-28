@@ -1,3 +1,4 @@
+# 中间件作用：人为限制工具执行权限
 
 from rich import print as rprint
 from langchain.tools import tool
@@ -6,8 +7,6 @@ from langchain.messages import HumanMessage
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain.agents import create_agent
 from langchain.agents.middleware import HumanInTheLoopMiddleware
-
-# 中间件作用：人为限制工具执行权限
 
 @tool
 def get_weather(city: str, is_forcast: bool = False) -> str:

@@ -1,3 +1,5 @@
+# LangSmith的基本使用
+
 from dotenv import load_dotenv
 from rich import print as rprint
 from langchain_ollama import ChatOllama

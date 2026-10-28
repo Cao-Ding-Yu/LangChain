@@ -1,3 +1,4 @@
+# 使用json_schema实现结构化输出
 
 from langchain_ollama import ChatOllama
 

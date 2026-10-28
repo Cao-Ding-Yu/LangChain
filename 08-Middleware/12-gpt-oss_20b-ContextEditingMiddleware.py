@@ -1,11 +1,10 @@
+# 上下文token删减
 
 from langchain_core.tools import tool
 from langchain.agents import create_agent
 from langchain.agents.middleware import ContextEditingMiddleware, ClearToolUsesEdit
 from langchain.messages import HumanMessage, AIMessage
 from langgraph.checkpoint.memory import InMemorySaver
-
-# 上下文token压缩
 
 @tool(description="查询指定城市天气")
 def get_weather(city: str):

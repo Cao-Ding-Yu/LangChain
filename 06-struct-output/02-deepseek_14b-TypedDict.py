@@ -1,3 +1,4 @@
+# 使用typeddict实现结构化输出
 
 from rich import print as rprint
 from langchain_ollama import ChatOllama

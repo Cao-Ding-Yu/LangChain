@@ -1,3 +1,4 @@
+# 使用@tool定义工具
 
 from typing import Literal
 from pydantic import BaseModel, Field

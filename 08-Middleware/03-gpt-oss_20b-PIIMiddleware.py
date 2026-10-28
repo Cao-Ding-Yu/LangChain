@@ -1,10 +1,9 @@
+# 中间件作用：敏感信息隐藏
 
 import re
 from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage
 from langchain.agents.middleware import PIIMiddleware
-
-# 中间件作用：敏感信息隐藏
 
 # 自定义手机号匹配规则
 def detect_phone_number(content: str):

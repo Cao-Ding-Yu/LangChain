@@ -1,3 +1,4 @@
+# 使用函数描述创建工具
 
 from rich import print as rprint
 from langchain_ollama import ChatOllama

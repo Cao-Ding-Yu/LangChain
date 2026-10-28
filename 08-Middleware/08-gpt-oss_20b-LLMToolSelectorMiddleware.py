@@ -1,11 +1,10 @@
+# 工具选型
 
 from langchain_core.tools import tool
 from langchain.agents.middleware import LLMToolSelectorMiddleware
 from langchain.messages import HumanMessage
 from langchain_ollama import ChatOllama
 from langchain.agents import create_agent
-
-# 工具选型
 
 DEFAULT_SYSTEM_PROMPT = (
     "Your goal is to select the most relevant tools for answering the user's query."
